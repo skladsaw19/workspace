@@ -1,0 +1,38 @@
+/* Custom styles for the navbar */
+#navbar {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 10px;
+    text-align: left;
+}
+
+/* Title Styling */
+.title {
+    text-align: center; /* Center-align title */
+    margin-top: 20px;
+}
+
+/* Common styles for each section */
+.section {
+    margin-bottom: 30px; /* Spacing between sections */
+}
+
+/* Custom styles for Optimism section */
+#attitude {
+    background-color: #e9ecef; /* Light background for contrast */
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Custom styles for Pessimism section */
+#pessimism {
+    background-color: #dee2e6; /* Slightly darker background */
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Custom styles for Realism section */
+#realism {
+    background-color: #ced4da; /* Even darker background */
+    padding: 15px;
+    border-radius: 5px;
+}
