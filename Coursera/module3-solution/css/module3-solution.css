@@ -40,24 +40,3 @@ h2{
 .navbar-brand{
 font-size: 30px;	
 }
-
-/* Custom styles for Optimism section */
-#Optimism {
-    background-color: #080808; 
-    padding: 15px;
-    border-radius: 5px; 
-}
-
-/* Custom styles for Pessimism section */
-#Pessimism {
-    background-color: #7e97af; 
-    padding: 15px;
-    border-radius: 5px;
-}
-
-/* Custom styles for Realism section */
-#Realism {
-    background-color: #001122; 
-    padding: 15px;
-    border-radius: 5px;
-}
