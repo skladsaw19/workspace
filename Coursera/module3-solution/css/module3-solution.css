@@ -1,55 +1,42 @@
-/*Nav Bar*/
-/* Custom styles for the navbar */
-#navbar {
-    background-color: #f8f9fa; /* Light gray background */
-    padding: 10px;
+*{
+	margin: 0;
+	padding: 0;
+	
 }
-#brand-name {
-    font-family: 'Arial', sans-serif; /* Example font family */
-    font-size: 24px; /* Example font size */
-    color: rgba(5, 29, 73, 0.945)86) 51, 51); /* Example text color */
-    text-decoration: none; /* Remove underline from links */
-    text-align: left;
-}
+.navbar{
 
-/* Title Styling */
-.title {
-    font-family: 'Arial', sans-serif; /* Example font family */
-    font-size: 24px; /* Example font size */
-    color: rgba(5, 37, 73, 0.945)86) 51, 51); /* Example text color */
-    text-decoration: none; /* Remove underline from links */
-    text-align: center; /* Center-align title */
-    margin-top: 20px;
+border: none;
+background-color: black;
+color: #61122F;
+}
+body{
+	background-color: #61122F;
+	color: white;
+}
+.glyphicon{
+	font-size: 30px;
+	color:#61122F; 
 }
 
-/* Styles for the row */
-.row {
-    /* Additional styles if needed */
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: grey;
+}
+.text-center{
+	font-size: 30px;
 }
 
-
-/* Common styles for each section */
-.section {
-    margin-bottom: 30px; /* Spacing between sections */
+h2{
+	text-align: center;
 }
-
-/* Custom styles for Optimism section */
-#attitude {
-    background-color: #e9ecef; /* Light background for contrast */
-    padding: 15px;
-    border-radius: 5px; /* Rounded corners */
+#myNavbar ul li a {
+	color: #61122F;
 }
-
-/* Custom styles for Pessimism section */
-#pessimism {
-    background-color: #dee2e6; /* Slightly darker background */
-    padding: 15px;
-    border-radius: 5px;
-}
-
-/* Custom styles for Realism section */
-#realism {
-    background-color: #ced4da; /* Even darker background */
-    padding: 15px;
-    border-radius: 5px;
+.navbar-brand{
+font-size: 30px;	
 }
