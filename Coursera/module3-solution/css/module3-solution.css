@@ -43,21 +43,21 @@ font-size: 30px;
 
 /* Custom styles for Optimism section */
 #Optimism {
-    background-color: #e9ecef; 
+    background-color: #080808; 
     padding: 15px;
     border-radius: 5px; 
 }
 
 /* Custom styles for Pessimism section */
 #Pessimism {
-    background-color: #dee2e6; 
+    background-color: #7e97af; 
     padding: 15px;
     border-radius: 5px;
 }
 
 /* Custom styles for Realism section */
 #Realism {
-    background-color: #ced4da; 
+    background-color: #001122; 
     padding: 15px;
     border-radius: 5px;
 }
