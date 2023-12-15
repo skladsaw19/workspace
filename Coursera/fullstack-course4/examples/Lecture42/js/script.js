@@ -2,6 +2,8 @@
 var x;
 console.log(x);
 
+
+/*
 if (x == undefined) {
   console.log("x is undefined");
 }
@@ -13,4 +15,4 @@ if (x == undefined) {
 else {
   console.log("x has been defined");
 }
-
+*/
