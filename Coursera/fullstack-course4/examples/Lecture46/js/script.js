@@ -1,42 +1,40 @@
-// Functions are First-Class Data Types
-// Functions ARE objects
-function multiply(x, y) {
-  return x * y;
-}
-multiply.version = "v.1.0.0";
-console.log(multiply.version);
 
 
-// Function factory
-function makeMultiplier(multiplier) {
-  var myFunc = function (x) {
-    return multiplier * x;
-  };
+let currentTextSize = 12; // Current user setting
+let tempTextSize = currentTextSize; // Temporary storage before user confirms changes
 
-  return myFunc;
+// User decides to change text size to 14 using a settings interface
+tempTextSize = 14;
+
+// If the user confirms the changes, update the current setting
+function applyTextSizeChange() {
+    currentTextSize = tempTextSize;
 }
 
-var multiplyBy3 = makeMultiplier(3);
-console.log(multiplyBy3(10));
-var doubleAll = makeMultiplier(2);
-console.log(doubleAll(100));
+// If the user cancels the changes, `currentTextSize` remains unchanged.
 
 
+let shoppingCart = {
+  items: [],
+  totalPrice: 0
+};
 
-// Passing functions as arguments
-function doOperationOn(x, operation) {
-  return operation(x);
+// Function to add an item to the cart
+function addItemToCart(item) {
+  shoppingCart.items.push(item);
+  shoppingCart.totalPrice += item.price;
 }
 
-var result = doOperationOn(5, multiplyBy3);
-console.log(result);
-result = doOperationOn(100, doubleAll);
-console.log(result);
+// Example item
+let newItem = {
+  name: "JavaScript Cookbook",
+  price: 29.99
+};
 
+// Add item to the cart
+addItemToCart(newItem);
 
-
-
-
+// At this point, `shoppingCart` is updated by reference wherever it's used.
 
 
 

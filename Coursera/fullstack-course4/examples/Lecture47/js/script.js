@@ -63,3 +63,8 @@ console.log(value);
 
 
 
+var x = 5;
+var y = x;
+x = 10;
+var y = x;
+console.log(y);

@@ -1,5 +1,6 @@
 yaakovGreeter.sayHello();
 johnGreeter.sayHi();
+gapGreeter.saySawadee();
 
 // Immediately Invoked Function Expression
 // IIFE
