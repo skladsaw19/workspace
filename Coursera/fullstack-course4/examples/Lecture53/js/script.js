@@ -5,11 +5,21 @@
 function sayHello () {
   var name =
    document.getElementById("name").value;
-   var message = "<h2>Hello " + name + "!</h2>";
+   var message = "<h2>Satan sends invitation, welcometo HELL " + name + "!</h2>";
+
+   var contentElement = document.getElementById("content");
+    contentElement.innerHTML = message;
+    contentElement.style.color = "red";
+
+   var contentElement = document.getElementById("title");
+    contentElement.innerHTML = title;
+    contentElement.style.display = "none";
+
+   document.querySelector("p").style.display = "none";
 
   // document
   //   .getElementById("content")
-  //   .textContent = message;
+  //   .textContent = message;  
 
   document
     .getElementById("content")
@@ -26,3 +36,5 @@ function sayHello () {
         .textContent = title;
   }
 }
+
+
